@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+html,
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-family: -apple-system Roboto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p{
+  font-family: Roboto;
+}
+
+button{
+  font-family: Roboto;
+}
+
+input{
+  font-family: Roboto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: #8C52E5;
+  height: 10vh;
+
+}
+.child-1-header{
+   width: 90%;
+   margin: auto;
+}
+
+.child-2-header{
+
+}
+
+.main{
+  background-color: #8C52E5;
+  height: calc(100vh - 10vh);
+}
+
+.forgot-body{
+  background-color: #8C52E5;
+}
+
+.main-child{
+  border: 1px solid #8C52E5;
+  height: 400px;
+  width: 50%;
+  margin: auto;
+}
+
+.main-child-login{
+  border: 1px solid #8C52E5;
+  height: 280px;
+  width: 50%;
+  margin: auto;
+}
+
+.form-section{
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  background-color: #FBFBFB;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: -20%;
+}
+.forgot-form{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#form-title{
+  font-family: Roboto;
+  font-size: 19px;
+}
+
+#form-title-error{
+  font-family: Roboto;
+  font-size: 20px;
+  color: #8C52E5;
+  font-weight: 500;
+}
+
+#error-button{
+  font-family: Roboto;
+  background-color: #68DE5A;
+  height: 42px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 19px;
+  color: #fff;
+  
+}
+#error-button-link{
+  font-family: Roboto;
+  background-color: #68DE5A;
+  height: 42px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 19px;
+  color: #fff;
+}
+a{
+  style: none;
+}
+
+#error-img{
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+}
+#form-text{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+input{
+  font-weight: 500;
+  margin-top: auto;
+  border: 0px;
+  height: 42px;
+  margin-bottom:  8%;
+  background-color: #FBFBFB;
+  border-bottom: 1px solid #878686;
+}
+
+#input-button-forgot{
+  font-family: Roboto;
+  margin-bottom:  -15%;
+  border: 0px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #68DE5A;
+  cursor: pointer;
+}
+
+.hero{
+  display: flex;
+  height: 90vh;
+  background-color: #8C52E5;
+}
+.child-1-hero{
+width: 50%;
+margin: auto;
+text-align: center;
+}
+#child-1-text-hero{
+  text-align: left;
+  weight: 400;
+  color: #fff;
+  size: 29px;
+  line-height: 33px;
+  margin: auto;
+  width: 50%;
+}
+
+#child-1-button-hero{
+  font-family: Roboto;
+   width: 50%;
+   height: 42px; 
+   color: #8C52E5;
+   margin: 0 auto;
+   border-radius: 30px;
+   border: 0px;
+  cursor: pointer;
+}
+.child-2-hero{
+width: 50%;
+height: 80%;
+margin: auto;
+}
+.form-section{
+  width: 50%;
+  height: 100%;
+  background-color: #FBFBFB;
+  border-radius: 8px;
+  margin: auto;
+}
+.hero-form{
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+#form-title{
+  font-family: Roboto;
+  font-size: 19px;
+}
+
+input{
+  font-weight: 500;
+  margin-top: auto;
+  height: 55px;
+  border: 0px;
+  background-color: #FBFBFB;
+  border-bottom: 1px solid #878686;
+}
+
+#input-button{
+  margin-bottom:  -15%;
+  font-family: Roboto;
+  color: #2d2d2d;
+  border: 0px;
+  border-radius: 30px;
+  height: 48px;
+  background-color: #D8D8D8;
+  cursor: pointer;
+}
+.section2{
+  display: flex;
+  width: 70%;
+  height: 80vh;
+  margin: auto;
+}
+
+.child-1-section2{
+  width: 50%;
+  text-align: center;
+  height: 500px;
+  margin: auto;
+  background-color: #000;
+}
+.child-2-section2{
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+#section2-child-1-background{
+  width: 65%;
+  margin-left: 0%;
+  margin-right: 100%;
+}
+#section2-child-2-background{
+  width: 50%;
+  margin: auto;
+}
+#section2-child-1-title{
+  font-family: Roboto;
+  color: #68DE5A;
+  ;
+}
+#section2-child-1-text{
+  font-family: Roboto;
+  color: #68DE5A;
+  ;
+}
+#section2-child-2-title{
+  font-family: Roboto;
+  color: #2d2d2d;
+}
+#section2-child-2-text{
+  font-family: Roboto;
+  color: #2d2d2d;
+}
+.section3{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  background-color: #8C52E5;
+}
+
+.child-1-section3{
+  width: 25%;
+  text-align: left;
+  margin: auto;
+}
+.child-2-section3{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+#section3-child-1-title{
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 800;
+}
+#section3-child-1-text{
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 400;
+}
+#section3-child-2-title{
+  font-family: Roboto;
+  color: #68DE5A;
+  font-size: 186px;
+}
+#section3-child-2-text{
+  font-family: Roboto;
+  color: #2d2d2d;
+}
+.section4{
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_476846599_970647970450014_65484.jpg");
+  background-color: #fff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.layer{
+  display: flex;
+  background-color: rgba(104, 222, 90, 0.7);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+.child-section4{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#section4-child-title{
+  text-align: left;
+
+  font-family: Roboto;
+  width: 70%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  margin: auto;
+}
+#section4-child-text{
+  text-align: left;
+  font-family: Roboto;
+  width: 70%;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  margin: auto;
+}
+.section5{
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  background-color: #fff;
+
+  
+
+.layer{
+  display: flex;
+  background-color: #EAEAEA;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+}
+
+.child-section5{
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+#section5-child-title{
+  text-align: left;
+
+  font-family: Roboto;
+  width: 70%;
+  height: 50%;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  margin: auto;
+}
+
+
+#section5-child-text{
+  text-align: left;
+  font-family: Roboto;
+  width: 70%;
+  color: #2d2d2d;
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto;
+}
+
+#section5-image{
+  width: 35%;
+}
